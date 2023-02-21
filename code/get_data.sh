@@ -1,4 +1,6 @@
-cd /labs/jlmartinshare/imdb/data 
+#cd /labs/jlmartinshare/imdb/data 
+
+cd /Users/timothyelder/Documents/imdb/data
 
 pwd
 

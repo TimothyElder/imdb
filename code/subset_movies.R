@@ -1,9 +1,11 @@
-#library(tidyverse)
+library(tidyverse)
 
-library(readr)
-library(dplyr)
+# library(readr)
+# library(dplyr)
 
-movies <- read_tsv(file = 'title.akas.tsv', na = "\\N", quote = '')
+setwd("/Users/timothyelder/Documents/imdb")
+
+movies <- read_tsv(file = 'data/title.akas.tsv', na = "\\N", quote = '')
 
 orig_x <- nrow(movies)
 
